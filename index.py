@@ -1,6 +1,6 @@
 # navigation file
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc
+from dash import html
 import dash
 
 from app import app
@@ -16,7 +16,7 @@ app.layout = html.Div([
 @app.callback(dash.dependencies.Output('page-content', 'children'),
               [dash.dependencies.Input('url', 'pathname')])
 def display_page(pathname):
-    if pathname == '/apps/overview':
+    if pathname == '/':
          return overview_page
     elif pathname == '/apps/run_script':
          return runScript_page
