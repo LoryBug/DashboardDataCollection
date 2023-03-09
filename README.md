@@ -11,5 +11,5 @@ An interactive dashboard using Dash library, from Plotly, to visualize data coll
  - *data*: directory all the json file and md file produced by the script
  - *app.py*: define the app variable needed by Flask
  - *index.py*: like a navigator file, manage the URLs from the different pages
- - *layout.py*: page html layout, and function with reusable components
+ - *page_layouts.py*: page html layout, and function with reusable components
  - *callbacks.py*: all the function that define the user interaction with the page
