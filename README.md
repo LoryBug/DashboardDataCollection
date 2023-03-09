@@ -1,4 +1,5 @@
 # DashboardDataCollection
+An interactive dashboard using Dash library, from Plotly, to visualize data collected from a firewall 
 
 ### Project structure:
  - **login_page** : ????
